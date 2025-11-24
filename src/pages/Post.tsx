@@ -1,5 +1,6 @@
 import { useEffect, useState, type ChangeEvent, type FormEvent } from "react"
 import { createPost, getAllPost } from "../services/post"
+import { CgLaptop } from "react-icons/cg"
 
 export default function Post() {
   const [post, setPost] = useState([])
@@ -45,6 +46,7 @@ export default function Post() {
       if (image) formData.append("image", image)
 
       const res = await createPost(formData)
+      console.log(res)
 
       await fetchData(1)
     } catch (err) {
