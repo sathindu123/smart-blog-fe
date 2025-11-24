@@ -1,5 +1,6 @@
 // routeData.ts
-import { LatLngExpression } from "leaflet";
+// routeData.ts
+import type { LatLngExpression } from "leaflet";
 
 // Kandy to Colombo (A1 Road approx path)
 export const kandyToColomboRoute: LatLngExpression[] = [

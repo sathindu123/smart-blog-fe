@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Login.css"; // CSS file එක import කරගන්න
-import { FaBus, FaUser, FaLock, FaSignInAlt } from "react-icons/fa";
+import { FaUser, FaLock, FaSignInAlt } from "react-icons/fa";
 
 // Role එකට Type එකක් හදාගමු (Type Safety සදහා)
 type UserRole = "passenger" | "driver";

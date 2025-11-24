@@ -4,7 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup, Polyline, useMap } from "react-
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import { kandyToColomboRoute } from "./routeData"; // අර කලින් හදාගත්ත file එක import කරන්න
-import { FaBus, FaPlay, FaStop, FaSignOutAlt } from "react-icons/fa";
+import { FaPlay, FaStop, FaSignOutAlt } from "react-icons/fa";
 
 // --- 1. Bus Icon එක ලස්සනට හදාගමු ---
 const busIcon = new L.Icon({
